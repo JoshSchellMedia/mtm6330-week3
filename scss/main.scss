@@ -1,6 +1,17 @@
 $deep-grey: #282c34;
 $white-text: rgba(255,255,255, .89);
 
+// Colours
+$main-white: #ECECE2;
+$main-blue: #669999;
+$main-orange: #CC6633;
+$main-grey: #999999;
+$main-black: #333333;
+
+// Fonts
+$header-font: cooper-black-std, serif;
+$main-font: ubuntu san-serif;
+
 body {
   background-color: $deep-grey;
   color: blue;
