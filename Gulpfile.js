@@ -8,4 +8,9 @@ gulp.task('sass', function () {
     .src('scss/**/*.scss')  // where to find the Sass source files
     .pipe(sass())           // forward those files to the compiler
     .pipe(gulp.dest('css')) // where to output the comipled CSS files
-})
+
+    })
+
+    gulp.task('default', function  () {
+        gulp.watch('scss/**/*.scss', ['sass'])
+    })
